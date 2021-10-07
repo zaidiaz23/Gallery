@@ -1,0 +1,73 @@
+ 
+.title-color
+{
+	color: #6F5AD3;
+}
+.navbarcolor
+{
+	background: rgba( 229, 179, 254, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8px );
+	-webkit-backdrop-filter: blur( 8px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.footercolor
+{
+	background: rgba( 229, 179, 254, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8px );
+	-webkit-backdrop-filter: blur( 8px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.footer-coloricons
+{
+	color: #6F5AD3;
+}
+img{
+	max-width: 100%;
+}
+.gallery{
+	
+	padding: 80px 0;
+	background: rgba( 229, 179, 254, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8px );
+	-webkit-backdrop-filter: blur( 8px );
+	border-radius: 10px;
+}
+.gallery img{
+	padding: 15px;
+	width: 100%;
+	cursor: pointer;
+	background: rgba( 229, 179, 254, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8px );
+	-webkit-backdrop-filter: blur( 8px );
+	border-radius: 10px;
+}
+#gallery-modal .modal-img{
+	width: 70%;	 
+}
+
+
+
+
+.gallery-modalcolor
+{
+	background: rgba( 229, 179, 254, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8px );
+	-webkit-backdrop-filter: blur( 8px );
+	border-radius: 10px;
+	color: #FFE17E;
+}
+
+.modal-body > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

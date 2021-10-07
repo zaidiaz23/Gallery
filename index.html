@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+  <title>ZaiGallery</title>
+  <link rel="icon" type="image/x-icon" href="img/zailogo.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Bootstrap iconos-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body>
+   <nav class="fixed-top navbar navbar-light navbarcolor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/zailogo.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+          ZaiGallery
+        </a>
+      </div>
+    </nav>
+
+  <section class="gallery min-vh-100">
+     <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+           <div class="col">
+              <picture>
+               <source srcset="img/08Septiembre.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/08_Septiembre.png" alt="gallery" class="gallery-item">
+              </picture> 
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/15Septiembre.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/15_Septiembre.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/26Septiembre.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/26Septiembre.webp" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/29Septiembre1.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/29_Septiembre1.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/29Septiembre2.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/29_Septiembre2.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/29Septiembre3.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/29_Septiembre3.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/29Septiembre4.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/29_Septiembre4.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/08Octubre.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/08_Octubre.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+           <div class="col">
+            <picture>
+               <source srcset="img/15Octubre.webp" type="image/webp" class="gallery-item" alt="gallery">
+                 <img src="img/15_Octubre.png" alt="gallery" class="gallery-item">
+              </picture>
+           </div>
+        </div>
+     </div>
+  </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content gallery-modalcolor">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorna Wing Edits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+         <img src="img/1.jpg" class="modal-img" alt="modal img">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footercolor py-2 px-5">
+   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top">
+     <div class="col-md-5 d-flex align-items-center">
+       <span class="title-color">&copy; 2021 ZaiGallery.</span>
+     </div>
+     <div class="col-md-3 d-flex align-items-center">
+       <span class="title-color">Hecho con ❤️</span>
+     </div>
+   </footer>
+ </div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
